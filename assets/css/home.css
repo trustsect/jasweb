@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@500;600;700;800&display=swap');
+
+section{
+    background: url('./../img/background.jpg');
+    height: 40.1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navshadow{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: 1s;
+}
+
+.navbar{
+    transition: 1s;
+}
+
+.navbar .nav-link{
+    color: #0b4e83;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.navbar .nav-link:hover{
+    color: #0b4e83;
+}
+
+.navbar-toggler .bi-grid{
+    font-size: 1.4em;
+    color: #0b4e83;;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-customblue{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.85em;
+    background: #0b4e83;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    transition: 1s;
+}
+
+.btn-customblue:hover{
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.heading{
+    padding-top: 2.8em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+#typed{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    color: #ffffff;
+    max-width: 80%;
+    height: 30px;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0b4e83;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #57606f;
+}
+
+.h-border{
+    border-bottom: 1px solid #0b4e83;
+    display: inline;
+}
+
+.whoweare{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(241%2c 242%2c 246%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c342.187C63.854%2c344.654%2c117.753%2c301.277%2c173.173%2c269.463C231.525%2c235.966%2c304.391%2c212.977%2c331.981%2c151.611C359.551%2c90.291%2c321.236%2c21.669%2c314.664%2c-45.242C307.708%2c-116.068%2c334.998%2c-196.335%2c292.222%2c-253.212C249.232%2c-310.374%2c167.364%2c-316.37%2c97.909%2c-333.449C31.338%2c-349.819%2c-40.768%2c-379.385%2c-102.877%2c-350.365C-164.098%2c-321.76%2c-169.318%2c-236.047%2c-215.708%2c-186.912C-265.269%2c-134.419%2c-365.249%2c-125.161%2c-381.838%2c-54.9C-398.146%2c14.174%2c-331.833%2c74.787%2c-291.24%2c133.005C-256.858%2c182.316%2c-213.606%2c221.336%2c-164.781%2c256.404C-113.446%2c293.275%2c-63.157%2c339.746%2c0%2c342.187' fill='%23b6bbd0'%3e%3c/path%3e%3cpath d='M1440 944.9649999999999C1512.87 943.125 1576.562 906.123 1642.581 875.222 1718.888 839.506 1807.96 819.125 1856.291 750.114 1907.715 676.687 1939.159 577.3389999999999 1910.745 492.317 1882.714 408.44100000000003 1774.059 387.462 1713.541 322.975 1656.497 262.19 1646.116 153.587 1567.324 126.37400000000002 1488.738 99.23200000000003 1412.813 172.938 1331.677 191.086 1242.877 210.94799999999998 1134.354 175.325 1068.366 237.978 1002.5419999999999 300.476 995.379 408.137 1008.473 497.956 1020.148 578.041 1095.3229999999999 628.816 1135.577 699.0260000000001 1171.022 760.8489999999999 1175.304 840.836 1230.737 885.62 1288.302 932.126 1366.02 946.8330000000001 1440 944.9649999999999' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h5{
+    color: #192a56;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.awards-item{
+    background: #f1f2f6;
+    border-radius: 5px;
+    padding: 5px 8px 15px 8px;
+}
+
+.awards-item .bi-trophy{
+    font-size: 2.5em;
+    color: #f9ca24;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.awards-item .awards-detail{
+    margin-top: 10px;
+}
+.awards-item .awards-name{
+    color: #192a56;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.awards-item .awards-recived{
+    color: #747d8c;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.85em;
+}
+
+form{
+    width: 25%;
+}
+
+.checkbox{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.table thead{
+    background: #0b4e83;
+}
+
+.table th{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.table td{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.98em;
+    color: #2f3542;
+}
+
+.form-disabled{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.username{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.u_level{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+@media only screen and (max-width: 1080px){
+    form{
+        width: 90%;
+    }
+    section{
+        background: url('./../img/background.jpg');
+        height: 47.9em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .heading{
+        text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+        padding-top: 7em;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 2em;
+        color: #fff;
+    }
+    .awards-item{
+        background: #f1f2f6;
+        border-radius: 5px;
+        padding: 5px 8px 8px 8px;
+    }
+}
