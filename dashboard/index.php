@@ -37,7 +37,10 @@ if (($_SESSION["u_login"]) == false) {
             <a class="nav-link" href="./ahp/">AHP</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./topsis/">TOPSIS</a>
+            <a class="nav-link" href="./hasil/">HASIL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./saw/">SAW</a>
           </li>
 
           <?php if ($_SESSION['u_level'] == "superuser") { ?>

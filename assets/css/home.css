@@ -155,7 +155,6 @@ form{
 
 .table th{
     color: #ffffff;
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1em;
@@ -185,6 +184,12 @@ form{
     font-weight: 500;
     font-size: 0.8em;
 }
+
+.table-wrapper{
+  max-height: 27em;
+  overflow: auto;
+}
+
 @media only screen and (max-width: 1080px){
     form{
         width: 90%;
